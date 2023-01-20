@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Moon+Dance&family=Noto+Sans:ital,wght@1,200&family=Playfair+Display:ital@1&family=Poppins:ital,wght@0,300;0,600;1,100;1,300&family=Rowdies&family=Sofia+Sans:ital,wght@0,500;1,600&family=Titillium+Web:wght@300&display=swap');
+
+
+ 
+
+*
+{
+    font-family: 'popins',sans-serif;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+  
+}
+
+html{
+    scroll-behavior: smooth;
+    
+}
+
+.header .header-1
+{
+    background: #fff;
+    padding: 1.5rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .header-1 a{
+    text-decoration: none;
+}
+.header .header-1 .logo
+{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color:black;
+}
+.header .header-1 .logo i
+{
+  color:lightcoral;
+}
+.header .header-1 .search-form
+{
+    width: 50rem;
+    height: 4rem;
+    border: var(--border);
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 2rem;
+}
+.header .header-1 .search-form input
+{
+    font-size: 1.6rem;
+    padding: 0 1.2rem;
+    height: 100%;
+    width: 100%;
+    text-transform: none;
+    color: black;
+}
+.header .header-1 .search-form label
+{
+   font-size: 2.5rem;
+   padding-right: 1.5rem;
+   color: black;
+}
+.header .header-1 .search-form label:hover
+{
+   color: lightcoral;
+}
+.header .header-1 .icons div:hover,
+.header .header-1 .icons i:hover
+{
+   color: lightcoral;
+   
+}
+.icons
+{
+    font-size: 1.8rem;
+    word-spacing: 1rem;   
+}
+ .header-2
+{
+    background: lightcoral;
+}
+.header .header-2 .navbar
+{   
+    text-align: center;
+}
+ .header .header-2 .navbar a
+{
+   color: #fff;
+   display: inline-block;
+   padding: 1.2rem;
+   font-size: 1.7rem;
+   text-decoration: none;
+}
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    padding:.9rem 3rem;
+    border-radius: .5rem;
+    color:#fff;
+    background:lightcoral;
+    font-size: 1.7rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background:lightblue;
+}
+
+
+.navbar{
+justify-content: center;
+justify-items: center;
+}
+
+.navbar a:hover
+{
+  background: lightblue;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: lightcoral;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    
+    
+  
+}
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+}
+.footer a:hover
+{
+    background:lightblue;
+}
+.home{
+    background: url(./images/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.home .row .content{
+    flex:1 1 42rem;              /*  for adjusting the table image  */
+    margin-left: 50px;                           
+}
+
+.home .row .books-slider{
+    flex: 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+
+
+.home .row .content p{
+    color:#666;
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem ;
+}
+
+
+
+.heading1
+{
+  text-align: center;
+  color: lightcoral;
+  font-weight: 700;
+  font-size: 70px;
+}
+.books{
+    height: 450px;
+    width: 350px;
+    padding-left: 70px;
+    margin-right: 20px;
+    margin-top: 3rem;
+    padding-bottom: 100px;
+}
